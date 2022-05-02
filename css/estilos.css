@@ -132,7 +132,7 @@ nav ul li a:hover {
 
 .cover {
     width: 100%;
-    padding-bottom: 20vh;
+    padding-bottom: 30vh;
     font-family: 'Poppins', sans-serif;
     padding-top: 100px;
     position: relative;
@@ -287,9 +287,13 @@ nav ul li a:hover {
 }
 
 /*ABOUT ME*/
+#about_me .titulo-secciones{
+    font-size: 45px;
+    color: #4c007d;
+}
 .titulo-secciones{
     font-size: 45px;
-    color: #1b004b;
+    color: #fff;
 }
 .container_strech{
     max-width: 1200px;
@@ -300,7 +304,7 @@ nav ul li a:hover {
 .columnas_resp{
     display: grid;
     gap: 1rem;
-    grid-auto-rows: 18rem;
+    grid-auto-rows: auto;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     align-items: center;
 }
@@ -314,17 +318,44 @@ nav ul li a:hover {
     padding-top: 3rem;
 }
 
+/*Portfolio*/
+#portfolio{
+    background-color: #4c007d;
+}
+.portafolio_responsive_colum{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
+}
+.portafolio_responsive_colum img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container_strech_portafolio{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+
+}
+
+
+/*Dispositivos Tablet pantallas pequeñas*/
 @media screen and (max-width: 920px) {
 
     .container__vector img {
         width: 500px;
     }
 }
-
+/*Estilos Dispositivos movil*/
 @media screen and (max-width: 760px) {
 
     .columnas_resp img {
-        padding-top: 6rem;
+        padding-top: 0;
         width: 20rem;
     }
 
