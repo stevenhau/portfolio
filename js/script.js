@@ -34,3 +34,11 @@ window.addEventListener("resize", function(){
     }
 
 });
+
+/*Funcion para efecto de maquina de escribir*/
+const typed = new Typed('.typed', {
+    strings: ['', 'Software Developer', 'Web Developer', 'mobile Developer'],
+    typeSpeed: 75,
+    backSpeed: 75,
+    loop: true
+});
