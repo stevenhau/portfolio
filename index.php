@@ -1,3 +1,3 @@
 <?php 
 
- include "home.html";
+echo "hola";
